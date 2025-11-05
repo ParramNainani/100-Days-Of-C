@@ -7,7 +7,7 @@
 //     return 0;
 // }
 
-#include<stdio.h>
+
 // int main(){
 //     int i;
 //     printf("Enter a Number:");
@@ -72,19 +72,66 @@
 //     return 0;
 // }
 
-int main(){
-    int i , k = 1;
-    printf("Enter a number:");
-    scanf("%d", &i);
-    for (int j=2; j<= i/2; j++){
-        if(i%j==0){
-            k=0;
-        }
-    }
-    if (k == 1){
-        printf("number is prime");
-    }
-    else{
-        printf("Not Prime");
-    }
-}
+// int main(){
+//     int i , k = 1;
+//     printf("Enter a number:");
+//     scanf("%d", &i);
+//     for (int j=2; j<= i/2; j++){
+//         if(i%j==0){
+//             k=0;
+//         }
+//     }
+//     if (k == 1){
+//         printf("number is prime");
+//     }
+//     else{
+//         printf("Not Prime");
+//     }
+// }
+
+#include<stdio.h>
+// int main(){
+//     int i,j,k=1;
+//     printf("Enter a number:");
+//     scanf("%d", &j);
+//     for (i = j; i > 0; i--)
+//     {
+//         k = k * i;
+//     };
+//     printf("Factorial is %d",k);
+// }
+
+// int fibonacci(int n){
+//     if(n == 1){
+//         return 0;
+//     }
+//     else if(n==2){
+//         return 1;
+//     }
+//     //f(n) = f(n-1) + f(n-2)  0 , 1 , (0+1=1)
+//     return fibonacci(n-1) + fibonacci(n-2);
+// }
+// int main(){
+//     int n, i;
+//     printf("Enter the number of terms: ");
+//     scanf("%d", &n);
+//     printf("Fibonacci: ");
+//     for (i = 1; i < n+1; i++){
+//         printf("%d, ", fibonacci(i));
+//     }
+//     return 0;
+// }
+
+// int main(){
+//     int i,n;
+//     printf("Enter number of rows:");
+//     scanf("%d", &n);
+//     for (i = 1; i <= n; i++){
+//         for (int j = 1; j <= i; j++){
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
