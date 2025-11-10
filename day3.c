@@ -41,25 +41,25 @@
 // }
 
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+// #include<stdio.h>
+// #include<stdlib.h>
+// #include<time.h>
 
-int main(){
-    int i, j, number;
-    srand(time(NULL));
-    i = (rand() % 100) + 1;
-    do
-    {
-        printf("Enter your number:");
-        scanf("%d", &number);
-        if(number > i){
-            printf("TOO HIGH !!!\n");
-        }
-        else if(number<i){
-            printf("TOO LOW !!!\n");
-        }
+// int main(){
+//     int i, j, number;
+//     srand(time(NULL));
+//     i = (rand() % 100) + 1;
+//     do
+//     {
+//         printf("Enter your number:");
+//         scanf("%d", &number);
+//         if(number > i){
+//             printf("TOO HIGH !!!\n");
+//         }
+//         else if(number<i){
+//             printf("TOO LOW !!!\n");
+//         }
 
-    } while (number != i);
-    printf("Number is MATCHEDD");
-}
+//     } while (number != i);
+//     printf("Number is MATCHEDD");
+// }
